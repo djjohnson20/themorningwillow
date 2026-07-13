@@ -1,16 +1,103 @@
-# React + Vite
+# The Morning Willow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A custom business website for The Morning Willow, built with React and Vite. The site is being designed to provide a calm, modern wellness experience for visitors looking for massage, facial, and life coaching services.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a multi-page business website for The Morning Willow. The goal is to create a clean, elegant, and easy-to-navigate site that reflects the brand's wellness-focused identity while giving visitors clear access to services, booking, FAQs, and privacy information.
 
-## React Compiler
+## Planned Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Home
+- Services
+- Booking
+- FAQ
+- Contact
+- Privacy Policy
+- HIPAA Rights
+- Notice of Privacy Practices
 
-## Expanding the ESLint configuration
+## Planned Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Multi-page navigation with React Router
+- Modern wellness-inspired homepage
+- Services overview
+- Booking page for future custom scheduling functionality
+- FAQ section
+- Footer with policy links
+- Brand-based styling system using custom colors and typography
+
+## Tech Stack
+
+- React
+- Vite
+- React Router DOM
+- CSS
+
+## Getting Started
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```text
+src/
+  components/
+    home/
+    layout/
+    shared/
+  pages/
+    HomePage/
+    ServicesPage/
+    BookingPage/
+    FaqPage/
+    ContactPage/
+    PrivacyPolicyPage/
+    HipaaRightsPage/
+    NoticeOfPrivacyPracticesPage/
+  data/
+  styles/
+```
+
+## Current Status
+
+Current progress includes:
+
+- Project scaffolded with Vite
+- GitHub repository created and connected
+- React Router configured
+- Page structure created
+- Navbar and footer added
+- Homepage section components scaffolded
+
+## Future Improvements
+
+- Full homepage styling
+- Responsive navigation
+- Services page content
+- Custom booking calendar
+- FAQ content expansion
+- Policy page content
+- Contact page content
+- Mobile responsiveness
+- Accessibility improvements
+
+## Notes
+
+This project is currently in the early build phase and is focused on establishing structure, layout, and branding before adding more advanced functionality.
