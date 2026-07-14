@@ -11,7 +11,7 @@ function HomePage() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="home-page">
         <Hero />
         <ServicesPreview />
         <AboutPreview />

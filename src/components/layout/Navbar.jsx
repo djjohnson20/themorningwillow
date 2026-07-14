@@ -2,19 +2,33 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <header>
-      <nav>
-        <div>The Morning Willow</div>
+    <header className="site-header">
+      <nav className="site-nav">
+        <NavLink className="site-brand" to="/">
+          The Morning Willow
+        </NavLink>
 
-        <div>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/services">Services</NavLink>
-          <NavLink to="/booking">Booking</NavLink>
-          <NavLink to="/faq">FAQ</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
+        <div className="site-nav-links">
+          <NavLink className="site-nav-link" to="/">
+            Home
+          </NavLink>
+          <NavLink className="site-nav-link" to="/services">
+            Services
+          </NavLink>
+          <NavLink className="site-nav-link" to="/booking">
+            Booking
+          </NavLink>
+          <NavLink className="site-nav-link" to="/faq">
+            FAQ
+          </NavLink>
+          <NavLink className="site-nav-link" to="/contact">
+            Contact
+          </NavLink>
         </div>
 
-        <NavLink to="/booking">Book Now</NavLink>
+        <NavLink className="site-nav-cta" to="/booking">
+          Book Now
+        </NavLink>
       </nav>
     </header>
   );

@@ -1,32 +1,38 @@
 function ServicesPreview() {
   return (
-    <section>
-      <p>Our Services</p>
-      <h2>Care for body, skin, and mind.</h2>
+    <section className="services-preview">
+      <div className="services-preview__content">
+        <p className="services-preview__eyebrow">Our Services</p>
+        <h2 className="services-preview__title">
+          Care for body, skin, and mind.
+        </h2>
 
-      <article>
-        <h3>Massage</h3>
-        <p>
-          Therapeutic touch to relieve tension, reduce stress, and restore
-          balance.
-        </p>
-      </article>
+        <div className="services-preview__cards">
+          <article className="services-preview__card">
+            <h3 className="services-preview__card-title">Massage</h3>
+            <p className="services-preview__card-text">
+              Therapeutic touch to relieve tension, reduce stress, and restore
+              balance.
+            </p>
+          </article>
 
-      <article>
-        <h3>Facial</h3>
-        <p>
-          Custom skincare treatments that nourish your skin and renew your
-          natural glow.
-        </p>
-      </article>
+          <article className="services-preview__card">
+            <h3 className="services-preview__card-title">Facial</h3>
+            <p className="services-preview__card-text">
+              Custom skincare treatments that nourish your skin and renew your
+              natural glow.
+            </p>
+          </article>
 
-      <article>
-        <h3>Life Coaching</h3>
-        <p>
-          Personalized guidance to help you gain clarity, confidence, and
-          direction.
-        </p>
-      </article>
+          <article className="services-preview__card">
+            <h3 className="services-preview__card-title">Life Coaching</h3>
+            <p className="services-preview__card-text">
+              Personalized guidance to help you gain clarity, confidence, and
+              direction.
+            </p>
+          </article>
+        </div>
+      </div>
     </section>
   );
 }
