@@ -1,14 +1,14 @@
 :root {
-  --color-background: #f7f1e8;
-  --color-surface: #fffdfc;
-  --color-surface-muted: #f1eadf;
-  --color-text: #3f4634;
-  --color-text-muted: #6f745f;
-  --color-primary: #7e8463;
-  --color-primary-dark: #687050;
-  --color-accent: #dcc8a1;
-  --color-accent-dark: #b89d6c;
-  --color-border: #d8ccba;
+  --color-background: #f6f1e8;
+  --color-surface: #fffaf4;
+  --color-surface-muted: #ece4d7;
+  --color-text: #3d4332;
+  --color-text-muted: #6d725f;
+  --color-primary: #6f7553;
+  --color-primary-dark: #575d41;
+  --color-accent: #c8b28a;
+  --color-accent-dark: #a58f67;
+  --color-border: #d8cdbd;
 
   --font-heading: "Cormorant Garamond", Georgia, serif;
   --font-body: "Lato", "Helvetica Neue", Arial, sans-serif;

@@ -17,18 +17,9 @@ function Footer() {
             <Link className="site-footer__link" to="/">
               Home
             </Link>
-            <Link className="site-footer__link" to="/services">
-              Services
-            </Link>
-            <Link className="site-footer__link" to="/booking">
-              Booking
-            </Link>
-            <Link className="site-footer__link" to="/faq">
-              FAQ
-            </Link>
-            <Link className="site-footer__link" to="/contact">
-              Contact
-            </Link>
+            <a className="site-footer__link" href="#contact">
+              Get In Touch
+            </a>
           </div>
         </div>
 

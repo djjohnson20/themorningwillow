@@ -1,6 +1,6 @@
 function ServicesPreview() {
   return (
-    <section className="services-preview">
+    <section className="services-preview" id="services">
       <div className="services-preview__content">
         <p className="services-preview__eyebrow">Our Services</p>
         <h2 className="services-preview__title">

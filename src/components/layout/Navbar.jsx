@@ -12,23 +12,11 @@ function Navbar() {
           <NavLink className="site-nav-link" to="/">
             Home
           </NavLink>
-          <NavLink className="site-nav-link" to="/services">
-            Services
-          </NavLink>
-          <NavLink className="site-nav-link" to="/booking">
-            Booking
-          </NavLink>
-          <NavLink className="site-nav-link" to="/faq">
-            FAQ
-          </NavLink>
-          <NavLink className="site-nav-link" to="/contact">
-            Contact
-          </NavLink>
         </div>
 
-        <NavLink className="site-nav-cta" to="/booking">
-          Book Now
-        </NavLink>
+        <a className="site-nav-cta" href="#contact">
+          Get In Touch
+        </a>
       </nav>
     </header>
   );

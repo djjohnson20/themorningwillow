@@ -4,7 +4,7 @@ import Footer from "../../components/layout/Footer";
 import Hero from "../../components/home/Hero";
 import ServicesPreview from "../../components/home/ServicesPreview";
 import AboutPreview from "../../components/home/AboutPreview";
-import BookingCta from "../../components/home/BookingCta";
+import ContactSection from "../../components/home/ContactSection";
 
 function HomePage() {
   return (
@@ -14,7 +14,7 @@ function HomePage() {
         <Hero />
         <ServicesPreview />
         <AboutPreview />
-        <BookingCta />
+        <ContactSection />
       </main>
       <Footer />
     </>

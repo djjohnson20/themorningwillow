@@ -212,104 +212,6 @@
   font-size: var(--font-size-md);
 }
 
-.booking-cta {
-  padding: 0 var(--space-lg) var(--space-4xl);
-}
-
-.booking-cta__content {
-  width: min(100%, var(--section-width));
-  margin: 0 auto;
-  padding: var(--space-2xl);
-  background-color: var(--color-primary);
-  color: var(--color-surface);
-  border-radius: var(--radius-lg);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: var(--space-md);
-}
-
-.booking-cta__title {
-  max-width: 560px;
-  font-size: var(--font-size-xl);
-  color: var(--color-surface);
-}
-
-.booking-cta__text {
-  max-width: 620px;
-  color: rgba(255, 253, 252, 0.88);
-  font-size: var(--font-size-md);
-}
-
-.booking-cta__button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 14px 28px;
-  background-color: var(--color-accent);
-  color: var(--color-text);
-  border-radius: var(--radius-pill);
-  font-weight: 700;
-  transition:
-    background-color var(--transition-fast),
-    transform var(--transition-fast);
-}
-
-.booking-cta__button:hover {
-  background-color: var(--color-accent-dark);
-  transform: translateY(-1px);
-}
-
-.faq-preview {
-  padding: 0 var(--space-lg) var(--space-4xl);
-}
-
-.faq-preview__content {
-  width: min(100%, var(--section-width));
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-lg);
-}
-
-.faq-preview__eyebrow {
-  font-size: var(--font-size-sm);
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: var(--color-accent-dark);
-}
-
-.faq-preview__title {
-  max-width: 560px;
-  font-size: var(--font-size-xl);
-  color: var(--color-text);
-}
-
-.faq-preview__list {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-md);
-  margin-top: var(--space-lg);
-}
-
-.faq-preview__item {
-  padding: var(--space-lg);
-  background-color: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-card);
-}
-
-.faq-preview__question {
-  margin-bottom: var(--space-sm);
-  font-size: var(--font-size-md);
-  color: var(--color-text);
-}
-
-.faq-preview__answer {
-  color: var(--color-text-muted);
-}
-
 .site-footer {
   padding: 0 var(--space-lg) var(--space-xl);
 }
@@ -361,4 +263,61 @@
 
 .site-footer__link:hover {
   color: var(--color-primary);
+}
+
+.contact-section {
+  padding: 0 var(--space-lg) var(--space-4xl);
+}
+
+.contact-section__content {
+  width: min(100%, var(--section-width));
+  margin: 0 auto;
+  padding: var(--space-2xl);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.contact-section__eyebrow {
+  font-size: var(--font-size-sm);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--color-accent-dark);
+}
+
+.contact-section__title {
+  font-size: var(--font-size-xl);
+  color: var(--color-text);
+}
+
+.contact-section__text {
+  max-width: 640px;
+  font-size: var(--font-size-md);
+  color: var(--color-text-muted);
+}
+
+.contact-section__details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+}
+
+.contact-section__item {
+  padding: var(--space-lg);
+  background-color: var(--color-surface-muted);
+  border-radius: var(--radius-md);
+}
+
+.contact-section__label {
+  margin-bottom: var(--space-xs);
+  font-size: var(--font-size-md);
+  color: var(--color-text);
+}
+
+.contact-section__value {
+  color: var(--color-text-muted);
 }
