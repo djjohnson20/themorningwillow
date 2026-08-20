@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage/HomePage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage/PrivacyPolicyPage";
 import HipaaRightsPage from "./pages/HipaaRightsPage/HipaaRightsPage";
 import NoticeOfPrivacyPracticesPage from "./pages/NoticeOfPrivacyPracticesPage/NoticeOfPrivacyPracticesPage";
+import ResourcesPage from "./pages/ResourcesPage/ResourcesPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         path="/notice-of-privacy-practices"
         element={<NoticeOfPrivacyPracticesPage />}
       />
+      <Route path="/resources" element={<ResourcesPage />} />
     </Routes>
   );
 }

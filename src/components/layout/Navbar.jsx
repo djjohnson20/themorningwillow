@@ -12,9 +12,12 @@ function Navbar() {
           <NavLink className="site-nav-link" to="/">
             Home
           </NavLink>
+          <NavLink className="site-nav-link" to="/resources">
+            Resources
+          </NavLink>
         </div>
 
-        <a className="site-nav-cta" href="#contact">
+        <a className="site-nav-cta" href="/#contact">
           Get In Touch
         </a>
       </nav>

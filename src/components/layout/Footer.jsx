@@ -17,7 +17,10 @@ function Footer() {
             <Link className="site-footer__link" to="/">
               Home
             </Link>
-            <a className="site-footer__link" href="#contact">
+            <Link className="site-footer__link" to="/resources">
+              Resources
+            </Link>
+            <a className="site-footer__link" href="/#contact">
               Get In Touch
             </a>
           </div>
