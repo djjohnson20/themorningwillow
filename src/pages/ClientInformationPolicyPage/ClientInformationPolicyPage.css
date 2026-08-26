@@ -1,9 +1,9 @@
-.privacy-policy-page {
+.client-information-policy-page {
   padding: var(--space-4xl) var(--space-lg);
   background-color: var(--color-background);
 }
 
-.privacy-policy-page__content {
+.client-information-policy-page__content {
   width: min(100%, 800px);
   margin: 0 auto;
   padding: var(--space-2xl);
@@ -13,7 +13,7 @@
   box-shadow: var(--shadow-card);
 }
 
-.privacy-policy-page__eyebrow {
+.client-information-policy-page__eyebrow {
   margin-bottom: var(--space-sm);
   font-size: var(--font-size-sm);
   letter-spacing: 2px;
@@ -21,66 +21,66 @@
   color: var(--color-accent-dark);
 }
 
-.privacy-policy-page__title {
+.client-information-policy-page__title {
   margin-bottom: var(--space-sm);
   font-size: var(--font-size-2xl);
   color: var(--color-text);
 }
 
-.privacy-policy-page__effective-date {
+.client-information-policy-page__effective-date {
   padding-bottom: var(--space-xl);
   border-bottom: 1px solid var(--color-border);
   color: var(--color-text-muted);
 }
 
-.privacy-policy-page__body {
+.client-information-policy-page__body {
   display: flex;
   flex-direction: column;
   gap: var(--space-xl);
   padding-top: var(--space-xl);
 }
 
-.privacy-policy-page__body section {
+.client-information-policy-page__body section {
   display: flex;
   flex-direction: column;
   gap: var(--space-sm);
 }
 
-.privacy-policy-page__body h2 {
+.client-information-policy-page__body h2 {
   font-size: var(--font-size-lg);
   color: var(--color-text);
 }
 
-.privacy-policy-page__body p {
+.client-information-policy-page__body p {
   max-width: 700px;
   color: var(--color-text-muted);
   line-height: var(--line-height-body);
 }
 
 @media (max-width: 768px) {
-  .privacy-policy-page {
+  .client-information-policy-page {
     padding: var(--space-3xl) var(--space-md);
   }
 
-  .privacy-policy-page__content {
+  .client-information-policy-page__content {
     padding: var(--space-xl);
   }
 
-  .privacy-policy-page__title {
+  .client-information-policy-page__title {
     font-size: var(--font-size-xl);
   }
 }
 
 @media (max-width: 400px) {
-  .privacy-policy-page {
+  .client-information-policy-page {
     padding: var(--space-2xl) var(--space-sm);
   }
 
-  .privacy-policy-page__content {
+  .client-information-policy-page__content {
     padding: var(--space-lg);
   }
 
-  .privacy-policy-page__title {
+  .client-information-policy-page__title {
     font-size: var(--font-size-lg);
   }
 }

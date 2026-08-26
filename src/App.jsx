@@ -1,20 +1,20 @@
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage/PrivacyPolicyPage";
-import HipaaRightsPage from "./pages/HipaaRightsPage/HipaaRightsPage";
-import NoticeOfPrivacyPracticesPage from "./pages/NoticeOfPrivacyPracticesPage/NoticeOfPrivacyPracticesPage";
+import ClientInformationPolicyPage from "./pages/ClientInformationPolicyPage/ClientInformationPolicyPage";
 import ResourcesPage from "./pages/ResourcesPage/ResourcesPage";
+import FaqPage from "./pages/FaqPage/FaqPage";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
-      <Route path="/hipaa-rights" element={<HipaaRightsPage />} />
       <Route
-        path="/notice-of-privacy-practices"
-        element={<NoticeOfPrivacyPracticesPage />}
+        path="/client-information-policy"
+        element={<ClientInformationPolicyPage />}
       />
+      <Route path="/faq" element={<FaqPage />} />
       <Route path="/resources" element={<ResourcesPage />} />
     </Routes>
   );

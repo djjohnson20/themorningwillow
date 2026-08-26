@@ -1,14 +1,18 @@
 import { Link } from "react-router-dom";
+import logo from "../../assets/images/themorningwillowlogo.png";
 
 function Footer() {
   return (
     <footer className="site-footer">
       <div className="site-footer__content">
         <div className="site-footer__brand">
-          <h2 className="site-footer__title">The Morning Willow</h2>
-          <p className="site-footer__text">
-            Massage, facial, and life coaching.
-          </p>
+          <Link className="site-footer__logo-link" to="/">
+            <img
+              className="site-footer__logo"
+              src={logo}
+              alt="The Morning Willow"
+            />
+          </Link>
         </div>
 
         <div className="site-footer__group">
@@ -19,6 +23,9 @@ function Footer() {
             </Link>
             <Link className="site-footer__link" to="/resources">
               Resources
+            </Link>
+            <Link className="site-footer__link" to="/faq">
+              FAQ
             </Link>
             <a className="site-footer__link" href="/#contact">
               Get In Touch
@@ -32,14 +39,8 @@ function Footer() {
             <Link className="site-footer__link" to="/privacy-policy">
               Privacy Policy
             </Link>
-            <Link className="site-footer__link" to="/hipaa-rights">
-              HIPAA Rights
-            </Link>
-            <Link
-              className="site-footer__link"
-              to="/notice-of-privacy-practices"
-            >
-              Notice of Privacy Practices
+            <Link className="site-footer__link" to="/client-information-policy">
+              Client Information Policy
             </Link>
           </div>
         </div>

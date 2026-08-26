@@ -8,7 +8,7 @@ function AboutPreview() {
         </h2>
         <p className="about-preview__text">
           The Morning Willow is designed to support rest, renewal, and personal
-          wellness through massage, facial services, and life coaching.
+          wellness through massage and facial services.
         </p>
       </div>
     </section>
