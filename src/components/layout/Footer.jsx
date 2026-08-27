@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/images/themorningwillowlogo.png";
+import logo from "../../assets/images/themorningwillowlogotransp.png";
 
 function Footer() {
   return (
@@ -27,9 +27,6 @@ function Footer() {
             <Link className="site-footer__link" to="/faq">
               FAQ
             </Link>
-            <a className="site-footer__link" href="/#contact">
-              Get In Touch
-            </a>
           </div>
         </div>
 
@@ -38,9 +35,6 @@ function Footer() {
           <div className="site-footer__links">
             <Link className="site-footer__link" to="/privacy-policy">
               Privacy Policy
-            </Link>
-            <Link className="site-footer__link" to="/client-information-policy">
-              Client Information Policy
             </Link>
           </div>
         </div>

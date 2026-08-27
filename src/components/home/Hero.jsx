@@ -8,15 +8,6 @@ function Hero() {
           Massage and facial services designed to help you feel your best inside
           and out.
         </p>
-
-        <div className="hero__actions">
-          <a className="hero__button" href="#contact">
-            Get In Touch
-          </a>
-          <a className="hero__button hero__button-secondary" href="#services">
-            Explore Services
-          </a>
-        </div>
       </div>
     </section>
   );

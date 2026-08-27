@@ -12,19 +12,31 @@ function ContactSection() {
         <div className="contact-section__details">
           <div className="contact-section__item">
             <h3 className="contact-section__label">Phone</h3>
-            <p className="contact-section__value">(555) 123-4567</p>
+            <a className="contact-section__value" href="tel:+14806481621">
+              (480) 648-1621
+            </a>
           </div>
 
           <div className="contact-section__item">
             <h3 className="contact-section__label">Email</h3>
-            <p className="contact-section__value">hello@themorningwillow.com</p>
+            <a
+              className="contact-section__value"
+              href="mailto:themorningwillowllc@gmail.com"
+            >
+              themorningwillowllc@gmail.com
+            </a>
           </div>
 
           <div className="contact-section__item">
-            <h3 className="contact-section__label">Location</h3>
-            <p className="contact-section__value">
-              City, State or in-person / virtual details
-            </p>
+            <h3 className="contact-section__label">Instagram</h3>
+            <a
+              className="contact-section__value"
+              href="https://www.instagram.com/themorningwillow_/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              @themorningwillow_
+            </a>
           </div>
         </div>
       </div>

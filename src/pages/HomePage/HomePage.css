@@ -6,25 +6,16 @@
   padding: var(--space-lg) var(--space-lg) 0;
 }
 
-.site-nav {
+.site-header__content {
   width: min(100%, var(--max-width));
   margin: 0 auto;
-  padding: var(--space-md) var(--space-xl);
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: var(--space-lg);
-  background-color: rgba(255, 253, 252, 0.7);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-pill);
-  box-shadow: var(--shadow-soft);
 }
 
 .site-brand {
-  font-family: var(--font-heading);
-  font-size: var(--font-size-lg);
-  color: var(--color-text);
-  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .site-logo {
@@ -33,16 +24,30 @@
   height: auto;
 }
 
+.site-nav {
+  flex: 0 1 600px;
+  min-width: 0;
+  margin: 0 auto;
+  padding: var(--space-md) var(--space-xl);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-lg);
+  background-color: rgba(255, 253, 252, 0.7);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  box-shadow: var(--shadow-soft);
+}
+
 .site-nav-links {
   display: flex;
   align-items: center;
   gap: var(--space-md);
-  margin-left: auto;
-  margin-right: var(--space-sm);
+  margin-left: 0;
 }
 
 .site-nav-link {
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-md);
   color: var(--color-text-muted);
   transition: color var(--transition-fast);
 }
@@ -51,25 +56,27 @@
   color: var(--color-primary);
 }
 
-.site-nav-cta {
-  padding: 12px 24px;
-  background-color: var(--color-accent);
-  color: var(--color-text);
+.site-nav-booking {
+  padding: 14px 28px;
+  background-color: #2f6f9e;
+  color: #ffffff;
   border-radius: var(--radius-pill);
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-md);
   font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
   transition:
     background-color var(--transition-fast),
     transform var(--transition-fast);
 }
 
-.site-nav-cta:hover {
-  background-color: var(--color-accent-dark);
+.site-nav-booking:hover {
+  background-color: #245777;
   transform: translateY(-1px);
 }
 
 .hero {
-  padding: var(--space-4xl) var(--space-lg);
+  padding: var(--space-2xl) var(--space-lg) var(--space-4xl);
 }
 
 .hero__content {
@@ -98,42 +105,6 @@
   max-width: 620px;
   font-size: var(--font-size-md);
   color: var(--color-text-muted);
-}
-
-.hero__actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-md);
-  margin-top: var(--space-sm);
-}
-
-.hero__button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 14px 28px;
-  background-color: var(--color-primary);
-  color: var(--color-surface);
-  border-radius: var(--radius-pill);
-  font-weight: 700;
-  transition:
-    background-color var(--transition-fast),
-    transform var(--transition-fast);
-}
-
-.hero__button:hover {
-  background-color: var(--color-primary-dark);
-  transform: translateY(-1px);
-}
-
-.hero__button-secondary {
-  background-color: transparent;
-  color: var(--color-text);
-  border: 1px solid var(--color-border);
-}
-
-.hero__button-secondary:hover {
-  background-color: var(--color-surface);
 }
 
 .services-preview {
@@ -221,19 +192,19 @@
 }
 
 .site-footer {
-  padding: 0 var(--space-lg) var(--space-xl);
+  padding: 0 var(--space-lg) var(--space-lg);
 }
 
 .site-footer__content {
   width: min(100%, var(--max-width));
   margin: 0 auto;
-  padding: var(--space-2xl);
+  padding: var(--space-lg);
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   display: grid;
   grid-template-columns: 1.2fr 1fr 1fr;
-  gap: var(--space-xl);
+  gap: var(--space-lg);
 }
 
 .site-footer__brand {
@@ -257,7 +228,7 @@
 
 .site-footer__logo {
   display: block;
-  width: 180px;
+  width: 130px;
   height: auto;
 }
 
@@ -338,17 +309,74 @@
   color: var(--color-text-muted);
 }
 
+.location-section {
+  padding: 0 var(--space-lg) var(--space-4xl);
+}
+
+.location-section__content {
+  width: min(100%, var(--section-width));
+  margin: 0 auto;
+  padding: var(--space-2xl);
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  align-items: center;
+  gap: var(--space-2xl);
+  background-color: var(--color-surface-muted);
+  border-radius: var(--radius-lg);
+}
+
+.location-section__details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-md);
+}
+
+.location-section__eyebrow {
+  font-size: var(--font-size-sm);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--color-accent-dark);
+}
+
+.location-section__title {
+  font-size: var(--font-size-xl);
+  color: var(--color-text);
+}
+
+.location-section__address {
+  font-style: normal;
+  font-size: var(--font-size-md);
+  color: var(--color-text-muted);
+  line-height: var(--line-height-body);
+}
+
+.location-section__directions {
+  color: var(--color-primary-dark);
+  font-weight: 700;
+}
+
+.location-section__map {
+  aspect-ratio: 1;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.location-section__map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 @media (max-width: 768px) {
   .site-header {
     padding: var(--space-md) var(--space-md) 0;
   }
 
-  .site-nav {
+  .site-header__content {
     flex-direction: column;
-    align-items: stretch;
     gap: var(--space-md);
-    padding: var(--space-md);
-    border-radius: var(--radius-lg);
   }
 
   .site-brand {
@@ -356,20 +384,30 @@
     justify-content: center;
   }
 
+  .site-nav {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-md);
+    padding: var(--space-md);
+    border-radius: var(--radius-lg);
+    flex: none;
+    margin: 0;
+  }
+
   .site-nav-links {
     justify-content: center;
     flex-wrap: wrap;
     margin-left: 0;
-    margin-right: 0;
-    gap: var(--space-sm);
+    gap: var(--space-md);
   }
 
-  .site-nav-cta {
-    text-align: center;
+  .site-nav-booking {
+    align-self: center;
   }
 
   .hero {
-    padding: var(--space-3xl) var(--space-md);
+    padding: var(--space-2xl) var(--space-md) var(--space-3xl);
   }
 
   .hero__title {
@@ -378,16 +416,6 @@
 
   .hero__text {
     font-size: var(--font-size-sm);
-  }
-
-  .hero__actions {
-    width: 100%;
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .hero__button {
-    width: 100%;
   }
 
   .services-preview,

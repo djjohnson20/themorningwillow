@@ -5,6 +5,7 @@ import Hero from "../../components/home/Hero";
 import ServicesPreview from "../../components/home/ServicesPreview";
 import AboutPreview from "../../components/home/AboutPreview";
 import ContactSection from "../../components/home/ContactSection";
+import LocationSection from "../../components/home/LocationSection";
 
 function HomePage() {
   return (
@@ -15,6 +16,7 @@ function HomePage() {
         <ServicesPreview />
         <AboutPreview />
         <ContactSection />
+        <LocationSection />
       </main>
       <Footer />
     </>

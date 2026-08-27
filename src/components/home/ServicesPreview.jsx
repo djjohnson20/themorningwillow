@@ -15,7 +15,9 @@ function ServicesPreview() {
           </article>
 
           <article className="services-preview__card">
-            <h3 className="services-preview__card-title">Facial</h3>
+            <h3 className="services-preview__card-title">
+              Facial (Coming Soon)
+            </h3>
             <p className="services-preview__card-text">
               Custom skincare treatments that nourish your skin and renew your
               natural glow.
