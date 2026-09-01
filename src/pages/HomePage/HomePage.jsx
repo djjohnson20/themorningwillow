@@ -13,8 +13,8 @@ function HomePage() {
       <Navbar />
       <main className="home-page">
         <Hero />
-        <ServicesPreview />
         <AboutPreview />
+        <ServicesPreview />
         <ContactSection />
         <LocationSection />
       </main>

@@ -2,13 +2,15 @@ function AboutPreview() {
   return (
     <section className="about-preview">
       <div className="about-preview__content">
-        <p className="about-preview__eyebrow">About The Morning Willow</p>
+        <p className="about-preview__eyebrow">The Morning Willow</p>
+
         <h2 className="about-preview__title">
-          Holistic care for your whole self.
+          You spend so much time caring for everyone else. Here, you can slow
+          down, rest, and return to yourself.
         </h2>
-        <p className="about-preview__text">
-          The Morning Willow is designed to support rest, renewal, and personal
-          wellness through massage and facial services.
+
+        <p className="about-preview__signature">
+          Massage and facials in Chandler, Arizona
         </p>
       </div>
     </section>

@@ -1,12 +1,17 @@
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/images/themorningwillowlogotransp.png";
+import willowMark from "../../assets/images/williowbranchsunmiddle.png";
 
 function Navbar() {
   return (
     <header className="site-header">
       <div className="site-header__content">
         <NavLink className="site-brand" to="/">
-          <img className="site-logo" src={logo} alt="The Morning Willow" />
+          <img className="site-brand__mark" src={willowMark} alt="" />
+
+          <span className="site-brand__text">
+            <span className="site-brand__name">The Morning Willow</span>
+            <span className="site-brand__services">Massage & Facials</span>
+          </span>
         </NavLink>
 
         <nav className="site-nav" aria-label="Main navigation">
@@ -22,8 +27,12 @@ function Navbar() {
             </NavLink>
           </div>
         </nav>
-        <a className="site-nav-booking" href="ADD-BOOKING-LINK-HERE">
-          Book Appointment
+
+        <a
+          className="site-nav-booking"
+          href="https://practice-bfafcbf8.clinicsense.com"
+        >
+          Reserve
         </a>
       </div>
     </header>
