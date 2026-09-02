@@ -4,8 +4,10 @@ import Footer from "../../components/layout/Footer";
 import Hero from "../../components/home/Hero";
 import ServicesPreview from "../../components/home/ServicesPreview";
 import AboutPreview from "../../components/home/AboutPreview";
+import PhilosophySection from "../../components/home/PhilosophySection";
 import ContactSection from "../../components/home/ContactSection";
 import LocationSection from "../../components/home/LocationSection";
+import BookingCta from "../../components/home/BookingCta";
 
 function HomePage() {
   return (
@@ -15,8 +17,10 @@ function HomePage() {
         <Hero />
         <AboutPreview />
         <ServicesPreview />
+        <PhilosophySection />
         <ContactSection />
         <LocationSection />
+        <BookingCta />
       </main>
       <Footer />
     </>

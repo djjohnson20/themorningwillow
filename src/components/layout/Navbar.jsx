@@ -31,6 +31,8 @@ function Navbar() {
         <a
           className="site-nav-booking"
           href="https://practice-bfafcbf8.clinicsense.com"
+          target="_blank"
+          rel="noreferrer"
         >
           Reserve
         </a>
