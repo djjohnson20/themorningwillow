@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import willowMark from "../../assets/images/williowbranchsunmiddle.png";
+import willowMark from "../../../assets/images/williowbranchsunmiddle.png";
+import "./Footer.css";
 
 function Footer() {
   return (

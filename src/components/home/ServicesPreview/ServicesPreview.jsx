@@ -1,3 +1,5 @@
+import "./ServicesPreview.css";
+
 function ServicesPreview() {
   return (
     <section className="services-preview" id="services">

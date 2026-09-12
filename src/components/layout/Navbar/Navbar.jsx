@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-import willowMark from "../../assets/images/williowbranchsunmiddle.png";
+import willowMark from "../../../assets/images/williowbranchsunmiddle.png";
+import "./Navbar.css";
 
 function Navbar() {
   return (

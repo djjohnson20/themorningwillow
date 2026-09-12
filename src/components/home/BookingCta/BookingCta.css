@@ -1,0 +1,53 @@
+.booking-cta {
+  padding: var(--space-3xl) var(--space-lg);
+  background-color: var(--color-surface-muted);
+}
+
+.booking-cta__content {
+  width: min(100%, 800px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+  text-align: center;
+}
+
+.booking-cta__eyebrow {
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--color-accent-dark);
+}
+
+.booking-cta__title {
+  font-size: var(--font-size-xl);
+  color: var(--color-text);
+}
+
+.booking-cta__button {
+  margin-top: var(--space-sm);
+  padding: 16px 28px;
+  background-color: var(--color-primary-dark);
+  color: #ffffff;
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: background-color var(--transition-fast);
+}
+
+.booking-cta__button:hover {
+  background-color: var(--color-accent-dark);
+}
+
+@media (max-width: 768px) {
+  .booking-cta {
+    padding: var(--space-2xl) var(--space-md);
+  }
+
+  .booking-cta__title {
+    font-size: var(--font-size-lg);
+  }
+}

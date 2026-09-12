@@ -1,3 +1,5 @@
+import "./BookingCta.css";
+
 function BookingCta() {
   return (
     <section className="booking-cta">

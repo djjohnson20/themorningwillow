@@ -1,3 +1,5 @@
+import "./AboutPreview.css";
+
 function AboutPreview() {
   return (
     <section className="about-preview">

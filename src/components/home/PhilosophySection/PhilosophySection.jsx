@@ -1,5 +1,6 @@
-import facialImage from "../../assets/images/womenfacehandsontempels.jpg";
-import towelsImage from "../../assets/images/towelsandleaves.jpg";
+import facialImage from "../../../assets/images/womenfacehandsontempels.jpg";
+import towelsImage from "../../../assets/images/towelsandleaves.jpg";
+import "./PhilosophySection.css";
 
 function PhilosophySection() {
   return (

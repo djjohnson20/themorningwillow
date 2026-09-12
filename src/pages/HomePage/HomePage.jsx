@@ -1,13 +1,13 @@
 import "./HomePage.css";
-import Navbar from "../../components/layout/Navbar";
-import Footer from "../../components/layout/Footer";
-import Hero from "../../components/home/Hero";
-import ServicesPreview from "../../components/home/ServicesPreview";
-import AboutPreview from "../../components/home/AboutPreview";
-import PhilosophySection from "../../components/home/PhilosophySection";
-import ContactSection from "../../components/home/ContactSection";
-import LocationSection from "../../components/home/LocationSection";
-import BookingCta from "../../components/home/BookingCta";
+import Navbar from "../../components/layout/Navbar/Navbar";
+import Footer from "../../components/layout/Footer/Footer";
+import Hero from "../../components/home/Hero/Hero";
+import ServicesPreview from "../../components/home/ServicesPreview/ServicesPreview";
+import AboutPreview from "../../components/home/AboutPreview/AboutPreview";
+import PhilosophySection from "../../components/home/PhilosophySection/PhilosophySection";
+import ContactSection from "../../components/home/ContactSection/ContactSection";
+import LocationSection from "../../components/home/LocationSection/LocationSection";
+import BookingCta from "../../components/home/BookingCta/BookingCta";
 
 function HomePage() {
   return (

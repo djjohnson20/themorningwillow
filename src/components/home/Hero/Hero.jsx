@@ -1,4 +1,5 @@
-import massageImage from "../../assets/images/womenonmassagetable.jpg";
+import massageImage from "../../../assets/images/womenonmassagetable.jpg";
+import "./Hero.css";
 
 function Hero() {
   return (

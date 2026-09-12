@@ -1,3 +1,5 @@
+import "./LocationSection.css";
+
 function LocationSection() {
   return (
     <section className="location-section">
