@@ -1,31 +1,29 @@
 # The Morning Willow
 
-A custom business website for The Morning Willow, built with React and Vite. The site is being designed to provide a calm, modern wellness experience for visitors looking for massage, facial, and life coaching services.
+A responsive wellness business website for The Morning Willow, a Chandler, Arizona practice offering massage and facial services.
 
-## Overview
+The website gives visitors a calm, editorial-style introduction to the business, service highlights, contact information, location details, helpful resources, frequently asked questions, and a direct path to book an appointment through ClinicSense.
 
-This project is a multi-page business website for The Morning Willow. The goal is to create a clean, elegant, and easy-to-navigate site that reflects the brand's wellness-focused identity while giving visitors clear access to services, booking, FAQs, and privacy information.
+## Features
 
-## Planned Pages
+- Responsive React website built with Vite
+- Home, Resources, FAQ, and Privacy Policy pages
+- Editorial wellness-focused homepage design
+- Service overview for massage and facial offerings
+- External appointment links to ClinicSense
+- Clickable phone number and email address
+- Instagram link
+- Embedded Google Map and directions link for the Chandler location
+- Responsive desktop, tablet, and mobile layouts
+- Keyboard focus styles and reduced-motion support
+- Reusable React components with component-specific CSS files
 
-- Home
-- Services
-- Booking
-- FAQ
-- Contact
-- Privacy Policy
-- HIPAA Rights
-- Notice of Privacy Practices
+## Pages
 
-## Planned Features
-
-- Multi-page navigation with React Router
-- Modern wellness-inspired homepage
-- Services overview
-- Booking page for future custom scheduling functionality
-- FAQ section
-- Footer with policy links
-- Brand-based styling system using custom colors and typography
+- `/` - Home
+- `/resources` - Wellness resources and articles
+- `/faq` - Frequently asked questions
+- `/privacy-policy` - Privacy Policy
 
 ## Tech Stack
 
@@ -33,6 +31,8 @@ This project is a multi-page business website for The Morning Willow. The goal i
 - Vite
 - React Router DOM
 - CSS
+- ClinicSense for appointment scheduling
+- Google Maps embed for location details
 
 ## Getting Started
 
@@ -48,7 +48,9 @@ npm install
 npm run dev
 ```
 
-### Build for production
+The development site opens in Google Chrome automatically.
+
+### Create a production build
 
 ```bash
 npm run build
@@ -58,46 +60,39 @@ npm run build
 
 ```text
 src/
+  assets/
+    images/
   components/
     home/
+      AboutPreview/
+      BookingCta/
+      ContactSection/
+      Hero/
+      LocationSection/
+      PhilosophySection/
+      ServicesPreview/
     layout/
-    shared/
+      Footer/
+      Navbar/
   pages/
-    HomePage/
-    ServicesPage/
-    BookingPage/
     FaqPage/
-    ContactPage/
+    HomePage/
     PrivacyPolicyPage/
-    HipaaRightsPage/
-    NoticeOfPrivacyPracticesPage/
-  data/
+    ResourcesPage/
   styles/
+    global.css
+    variables.css
 ```
 
 ## Current Status
 
-Current progress includes:
-
-- Project scaffolded with Vite
-- GitHub repository created and connected
-- React Router configured
-- Page structure created
-- Navbar and footer added
-- Homepage section components scaffolded
+The current version includes a complete responsive front-end experience, including branding, navigation, homepage sections, contact details, an embedded location map, booking links, and supporting pages.
 
 ## Future Improvements
 
-- Full homepage styling
-- Responsive navigation
-- Services page content
-- Custom booking calendar
-- FAQ content expansion
-- Policy page content
-- Contact page content
-- Mobile responsiveness
-- Accessibility improvements
-
-## Notes
-
-This project is currently in the early build phase and is focused on establishing structure, layout, and branding before adding more advanced functionality.
+- Replace temporary service descriptions, durations, and names with final business details
+- Add and maintain wellness resources or blog articles
+- Review and finalize Privacy Policy content before launch
+- Optimize image sizes for production
+- Add final domain, deployment, and analytics configuration
+- Continue accessibility testing with keyboard and screen-reader checks
