@@ -59,7 +59,7 @@
   justify-content: space-between;
   gap: var(--space-md);
   cursor: pointer;
-  font-family: var(--font-heading);
+  font-family: var(--font-family-heading);
   font-size: var(--font-size-lg);
   font-weight: 700;
   color: var(--color-text);
