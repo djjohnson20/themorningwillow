@@ -44,7 +44,7 @@
 
 .resources-page__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: var(--space-lg);
 }
 
@@ -52,7 +52,6 @@
   padding: var(--space-xl);
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
   box-shadow: var(--shadow-card);
   display: flex;
   flex-direction: column;
@@ -75,9 +74,43 @@
   color: var(--color-text-muted);
 }
 
+.resources-page__card-provider {
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.resources-page__best-for {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.resources-page__best-for-label {
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--color-accent-dark);
+}
+
+.resources-page__best-for-text {
+  color: var(--color-text-muted);
+}
+
 .resources-page__card-link {
+  margin-top: auto;
   font-weight: 700;
   color: var(--color-primary);
+}
+
+.resources-page__disclaimer {
+  max-width: 900px;
+  margin: var(--space-2xl) auto 0;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  line-height: 1.7;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
